@@ -1,14 +1,14 @@
 let launchReady = false;
 let fuelLevel = 22000;
 let thrustOn = false;
-let secondsTolaunch = 10;
+let secondsToLaunch = 10;
 let interval;
 
 const countDown = () => {
-  console.log(secondsTolaunch--);
-  switch (secondsTolaunch) {
+  console.log(secondsToLaunch--);
+  switch (secondsToLaunch) {
     case 7:
-      console.log('Close Davy Jones' Locker..');
+      console.log("Close Davy Jones' Locker..");
       break;
     case 3:
       console.log('Ignition...');
